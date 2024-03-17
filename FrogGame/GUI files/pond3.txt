@@ -1,7 +1,7 @@
 First line: #rows, #columns. Other lines: W-water, L-lilypad, R-reeds, M-mud, S-start, E-end, A-alligator, 1/2/3-number of flies
 5 5
-W 2 L W W
- W M W 1 W
-W W S 3 A
- W W W W W
-W W L W E 
+S W 3 W W
+ 3 W A A W
+W W W W W
+ W R R R W
+W W W W E 
