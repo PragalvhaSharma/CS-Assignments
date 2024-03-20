@@ -1,2 +1,31 @@
-<?xml version = "1.0">
+<?xml version = "1.0"?>
+<!--
+Pragalvha Sharma
+pshar223
+251354461
+March 19, 2024
+-->
+<LIBRARY xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="pshar223_simple.xsd">
+	<BOOK>
+		<BookTitle>Steve Jobs</BookTitle>
+		<BookAuthor>Walter Isaacson</BookAuthor>
+		<NumberOfPages>656</NumberOfPages>
+	</BOOK>
+	<BOOK>
+		<BookTitle>Harry Potter and the Half-Blood Prince</BookTitle>
+		<BookAuthor>J.K Rowling</BookAuthor>
+	</BOOK>
+	<BOOK>
+		<BookTitle>Ready Player One</BookTitle>
+		<BookAuthor>Ernest Cline</BookAuthor>
+		<NumberOfPages>374</NumberOfPages>
+	</BOOK>
+	<BOOK>
+		<BookTitle>The Alchemist</BookTitle>
+		<BookAuthor>Paulo Coelho</BookAuthor>
+		<NumberOfPages>208</NumberOfPages>
+	</BOOK>
+</LIBRARY>
+
 
