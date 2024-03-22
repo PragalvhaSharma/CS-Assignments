@@ -1,0 +1,48 @@
+<?xml version = "1.0"?>
+<!--
+Pragalvha Sharma
+pshar223
+251354461
+March 19, 2024
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="CONTACTLISTINGS">
+		<xs:complexType>
+		<xs:sequence>
+			<xs:element name="PRODUCT" maxOccurs="unbounded">
+				<xs:complexType>
+				<xs:sequence>
+					<xs:element name="ProductID" type="xs:string"/>
+					<xs:element name="ProductName" type="xs:string"/>
+						<xs:element name="CONTACT" minOccurs="0" maxOccurs="unbounded">
+							<xs:complexType>
+							<xs:sequence>
+								<xs:element name="ContactID" type="xs:string"/>
+								<xs:element name="ContactType" type="xs:string"/>
+								<xs:element name="ContactDate" type="xs:date"/>
+								<xs:element name="ProductID" type="xs:string"/>
+								<xs:element name="EmployeeID" type="xs:integer" minOccurs="0"/>
+								<xs:element name="CompanyID" type="xs:string"/>
+								<xs:element name="TICKET" minOccurs="1" maxOccurs="5">
+									<xs:complexType>
+									<xs:sequence>
+										<xs:element name="TicketID" type="xs:integer"/>
+										<xs:element name="ContactID" type="xs:string"/>
+										<xs:element name="ProductID" type="xs:string"/>
+										<xs:element name="DateOpened" type="xs:date"/>
+										<xs:element name="DateClosed" type="xs:date" minOccurs="0"/>
+										<xs:element name="Notes" type="xs:string"/>
+									</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+							<xs:attribute name="uploaded" type="xs:boolean" use="optional"/>
+							</xs:complexType>
+						</xs:element>
+				</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
