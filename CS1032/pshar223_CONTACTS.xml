@@ -1,8 +1,8 @@
 <?xml version = "1.0"?>
 
-<CONTACTLISTINGS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<CONTACTLISTINGS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 xsi:noNamespaceSchemaLocation="pshar223_CONTACTS.xsd"
->	<PRODUCT>
+	<PRODUCT>
 		<ProductID>WSN01</ProductID>
 		<ProductName>WSIB System Navigator 01</ProductName>
 		<CONTACT uploaded="false">
