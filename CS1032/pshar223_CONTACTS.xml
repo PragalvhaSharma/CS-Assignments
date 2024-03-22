@@ -1,1 +1,126 @@
+<?xml version = "1.0"?>
+<!--
+Pragalvha Sharma
+pshar223
+251354461
+March 19, 2024
+-->
 
+<CONTACTLISTINGS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="pshar223_CONTACTS.xsd"
+>	<PRODUCT>
+		<ProductID>WSN01</ProductID>
+		<ProductName>WSIB System Navigator 01</ProductName>
+		<CONTACT uploaded="false">
+			<ContactID>MM0032</ContactID>
+			<ContactType>Error</ContactType>
+			<ContactDate>2023-11-10</ContactDate>
+			<ProductID>WSN01</ProductID>
+			<EmployeeID>708</EmployeeID>
+			<CompanyID>K9801</CompanyID>
+			<TICKET>
+				<TicketID>2</TicketID>
+				<ContactID>MM0032</ContactID>
+				<ProductID>WSN01</ProductID>
+				<DateOpened>2023-11-10</DateOpened>
+				<Notes>The software does not produce the correct OMERS values.
+				When date of injury spans two or more years.</Notes>
+			</TICKET>
+		</CONTACT>
+	</PRODUCT>
+	
+	
+	<PRODUCT>
+		<ProductID>WAT03</ProductID>
+		<ProductName>Worker Absentee Tracker 03</ProductName>
+		<CONTACT uploaded="true">
+			<ContactID>MM0062</ContactID>
+			<ContactType>Support</ContactType>
+			<ContactDate>2024-01-06</ContactDate>
+			<ProductID>WAT03</ProductID>
+			<EmployeeID>321</EmployeeID>
+			<CompanyID>WD404</CompanyID>
+			<TICKET>
+				<TicketID>4</TicketID>
+				<ContactID>MM0062</ContactID>
+				<ProductID>WAT03</ProductID>
+				<DateOpened>2024-01-07</DateOpened>
+				<DateClosed>2024-01-09</DateClosed>
+				<Notes>Customer needed help in process of saving multiple files. 
+				Wanted a walk through to understand specific steps. 
+				If walk through does not answer customer&apos;s concern then 
+				         an &lt;in house&gt; visit will be required.</Notes>
+			</TICKET>
+			<TICKET>
+				<TicketID>14</TicketID>
+				<ContactID>MM0062</ContactID>
+				<ProductID>WAT03</ProductID>
+				<DateOpened>2024-01-07</DateOpened>
+				<DateClosed>2024-01-09</DateClosed>
+				<Notes>Customer needs to uninstall &amp; install latest version of the product.
+				Version 03 was discontinued in 2023. Send link to current version 05.</Notes>
+			</TICKET>
+			<TICKET>
+				<TicketID>17</TicketID>
+				<ContactID>MM0062</ContactID>
+				<ProductID>WAT03</ProductID>
+				<DateOpened>2024-01-07</DateOpened>
+				<DateClosed>2024-01-10</DateClosed>
+				<Notes>Customer was suggested to re-install the software before the walkthrough for this product.
+				The customer entered incorrect parameters during initial install.</Notes>
+			</TICKET>
+		</CONTACT>
+	</PRODUCT>
+	
+	
+	<PRODUCT>
+		<ProductID>TCM005</ProductID>
+		<ProductName>Time Clock Management 005</ProductName>
+		<CONTACT uploaded="false">
+			<ContactID>MM0235</ContactID>
+			<ContactType>Error</ContactType>
+			<ContactDate>2024-02-17</ContactDate>
+			<ProductID>TCM005</ProductID>
+			<EmployeeID>007</EmployeeID>
+			<CompanyID>K9801</CompanyID>
+			
+			<TICKET>
+				<TicketID>27</TicketID>
+				<ContactID>MM0235</ContactID>
+				<ProductID>TCM005</ProductID>
+				<DateOpened>2024-02-17</DateOpened>
+				<DateClosed>2024-02-21</DateClosed>
+				<Notes>Program crashes every time customer goes for coffee. 
+				Check for gremlins in the code and investigate if customer understands program
+				will not work if cat walks across keyboard every time they leave the computer.</Notes>
+			</TICKET>
+			
+			<TICKET>
+				<TicketID>31</TicketID>
+				<ContactID>MM0235</ContactID>
+				<ProductID>TCM005</ProductID>
+				<DateOpened>2024-02-18</DateOpened>
+				<Notes>Have customer install the BackUp program to systematically create backups.
+				This will at least allow the loss of work to be lessened by any accidental feline intrusion.</Notes>
+			</TICKET>
+		</CONTACT>
+		<CONTACT uploaded="false">
+			<ContactID>MM0247</ContactID>
+			<ContactType>Support</ContactType>
+			<ContactDate>2024-02-28</ContactDate>
+			<ProductID>TCM005</ProductID>
+			<EmployeeID>012</EmployeeID>
+			<CompanyID>K9801</CompanyID>
+			<TICKET>
+				<TicketID>42</TicketID>
+				<ContactID>MM0247</ContactID>
+				<ProductID>TCM005</ProductID>
+				<DateOpened>2024-03-12</DateOpened>
+				<DateClosed>2024-03-12</DateClosed>
+				<Notes>Customer needed help in entering concurrent data.
+				Demonstrated to the customer that separate sessions were required.</Notes>
+			</TICKET>
+		</CONTACT>
+	</PRODUCT>
+
+</CONTACTLISTINGS>
