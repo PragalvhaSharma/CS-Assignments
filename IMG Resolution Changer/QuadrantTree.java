@@ -1,4 +1,4 @@
-**
+/**
  * The QuadrantTree class represents the quadrant tree data structure
  */
 public class QuadrantTree {
