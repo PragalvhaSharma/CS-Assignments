@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <math.h>
+#include <limits.h>  // For LLONG_MAX and LLONG_MIN
+
+int main() {
+    long long int x, term1, term2, term3, term4, term5, term6, result;
+
+    // Ask the user for the value of x
+    printf("Enter a value for x: ");
+    scanf("%lld", &x);
+
+    // Calculate each term of the polynomial separately and check for overflow
+    term1 = 3 * pow(x, 5);
+    if (term1 > LLONG_MAX || term1 < LLONG_MIN) {
+        printf("Overflow detected in term 3x^5\n");
+        return 1;
+    }
+
+    term2 = 2 * pow(x, 4);
+    if (term2 > LLONG_MAX || term2 < LLONG_MIN) {
+        printf("Overflow detected in term 2x^4\n");
+        return 1;
+    }
+
+    term3 = -5 * pow(x, 3);
+    if (term3 > LLONG_MAX || term3 < LLONG_MIN) {
+        printf("Overflow detected in term -5x^3\n");
+        return 1;
+    }
+
+    term4 = -pow(x, 2);
+    if (term4 > LLONG_MAX || term4 < LLONG_MIN) {
+        printf("Overflow detected in term -x^2\n");
+        return 1;
+    }
+
+    term5 = 7 * x;
+    if (term5 > LLONG_MAX || term5 < LLONG_MIN) {
+        printf("Overflow detected in term 7x\n");
+        return 1;
+    }
+
+    term6 = -6;  // Constant term, no overflow possible
+
+    // Sum the terms and check for overflow in the result
+    result = term1 + term2 + term3 + term4 + term5 + term6;
+    if (result > LLONG_MAX || result < LLONG_MIN) {
+        printf("Overflow detected in the result\n");
+        return 1;
+    }
+
+    // Output the result if no overflow was detected
+    printf("The value of the polynomial is: %lld\n", result);
+
+    return 0;
+}
